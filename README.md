@@ -1,1 +1,1 @@
-# ncdu-s3
+# ncdus3
