@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const cli = require('cac')()
 const filesize = require('filesize')
 const LogHorizon = require('log-horizon')
