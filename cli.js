@@ -6,7 +6,7 @@ const ncdus3 = require('./ncdus3')
 const fs = require('fs')
 
 const scan = async (s3location, ncdujson, combineFiles) => {
-  const s3PathRegex = /s3:\/\/(?<bucket>\w+)\/(?<prefix>.*)/
+  const s3PathRegex = /s3:\/\/(?<bucket>[\w-]+)\/(?<prefix>.*)/
   const match = s3PathRegex.exec(s3location)
   if (match == null) {
     console.error('invalid s3location, please check your input.')

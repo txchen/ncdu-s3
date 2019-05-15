@@ -1,6 +1,6 @@
 {
   "name": "ncdus3",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a tool to scan s3 and generate ncdu feed file",
   "main": "ncdus3.js",
   "bin": {
